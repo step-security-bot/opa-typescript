@@ -1,4 +1,5 @@
 import React from "react";
+import "@testing-library/jest-dom/vitest"; // TODO(sr): why do we need this here? (it's in setup.ts already)
 import { cleanup, render, screen } from "@testing-library/react";
 import Authz from "../src/authz";
 import { Result } from "@styra/opa";
